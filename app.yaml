@@ -1,0 +1,27 @@
+runtime: go
+api_version: go1
+application: deliveringfood
+version: 1
+
+handlers:  
+
+- url: /
+  script: _go_app
+- url: /dashboard
+  script: _go_app
+- url: /isUserLogedIn
+  script: _go_app
+- url: /createUser
+  script: _go_app
+- url: /doLogin
+  script: _go_app
+
+
+#- url: /code
+#  static_dir: dartcode/DeliveringFood/web/code
+#- url: /imghome
+#  static_dir: staticfolder/home/imghome
+#- url: /packages
+#  static_dir: dartcode/DeliveringFood/packages
+- url: /public
+  static_dir: hugo/public
