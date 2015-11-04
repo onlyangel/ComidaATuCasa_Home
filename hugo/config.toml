@@ -83,15 +83,14 @@ theme = "comida"
 
     # Aside section
 	[params.aside]
-		headline = "Get the Creative Theme for Hugo"
+		headline = "Inicia ahora esta nueva etapa."
 
 		[params.aside.button]
-			text = "Download now"
+			text = "Inscribete aqui"
 			link = "//github.com/digitalcraftsman/hugo-creative-theme"
 
 	# Contact section
 	[params.contact]
-		headline = "Let's Get In Touch!"
-		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
-		phone = "123-456-6789"
-		email = "feedback@startbootstrap.com"
+		headline = "Comunicate con nosotros!"
+		description = "Si tienes alguna duda o tienes algun comentario no dudes en enviarnos un correo al correo electronico."
+		email = "jose@ngel.es"
